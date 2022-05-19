@@ -2,6 +2,7 @@ import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  background: #000000;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
@@ -22,6 +23,8 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+  margin-top: -10px;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }

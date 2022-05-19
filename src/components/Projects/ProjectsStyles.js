@@ -62,6 +62,14 @@ export const TitleContent = styled.div`
 
 `;
 
+export const TitleContent2 = styled.div`
+padding-top: 40px;
+  text-align: center;
+  z-index: 20;
+  width: 100%;
+
+`;
+
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -106,9 +114,9 @@ export const CardInfo = styled.p`
 
 export const UtilityList = styled.ul`
   list-style-type: none;
-  padding: 0;
+  padding-left: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   margin: 2.5rem 0;
 `;
 

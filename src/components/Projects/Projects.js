@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ProjectSection } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ProjectSection, TitleContent2 } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
@@ -21,7 +21,7 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
-            <TitleContent>Components</TitleContent>
+            <TitleContent2>Components</TitleContent2>
             <TagList>
               {tags.map((tag, i) =>(
                 <Tag key ={i}>{tag}</Tag>
@@ -30,7 +30,6 @@ const Projects = () => (
           </div>
           <UtilityList>
 <ExternalLinks href={visit}>Learn More</ExternalLinks>
-<ExternalLinks href={visit}>Source</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
